@@ -1,0 +1,449 @@
+body {
+  background-color: #0e0e0e;
+}
+.halfDiv {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(50% - 10px);
+  height: max-content;
+  color: #fff;
+  text-align: center;
+}
+.halfDivImgContainer {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc((90vw / 2) - 10px);
+  background-color: blue;
+  border-radius: 10px;
+  max-height: 565px;
+}
+.halfDiv p:first-child {
+  margin: 0 0 20px 0;
+}
+.halfDiv p:last-child {
+  margin: 0;
+}
+.halfDiv:first-child {
+  margin: 0 20px 0 0;
+}
+#mainPromoVideoDiv {
+  width: 100%;
+  left: 0;
+  height: 600px;
+  top: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  padding: 20px 20px;
+}
+#mainPromoVideoDiv p {
+  width: 100%;
+  left: 0;
+  bottom: 20px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+#topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  display: block;
+  margin: 0 0 50px 0;
+  background-color: rgba(14, 14, 14, 0.4);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  z-index: 999;
+}
+.topBarInner {
+  width: 90%;
+  max-width: 1150px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  position: relative;
+  display: block;
+}
+#topBarLogo {
+  height: 40px;
+}
+#topNavLinks {
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: max-content;
+  right: 0;
+}
+#topNavLinks a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 30px 0 0;
+}
+#topNavLinks a:hover {
+  text-decoration: underline;
+}
+#topNavLinks a:last-child {
+  margin: 0;
+}
+
+.contentContainer {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 90%;
+  max-width: 1150px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  position: relative;
+  display: block;
+  margin: 0 0 150px 0;
+}
+
+.regularMarginText {
+  margin: 0 0 20px 0;
+}
+
+.noMarginText {
+  margin: 0;
+}
+
+#inputContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  position: relative;
+  display: block;
+  width: max-content;
+}
+.footerInputContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  position: relative;
+  display: block;
+  width: max-content;
+  margin: 0 0 100px 0;
+}
+
+.inputButton {
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.inputStyle {
+  background-color: #e1e1e1;
+  border: 2px solid #e1e1e1;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 0 5px 10px;
+  transition: 100ms ease-in all;
+}
+
+.inputStyle:focus {
+  border: 2px solid black;
+  background-color: white;
+}
+
+.centeredTextDesktop {
+  text-align: center;
+}
+
+#mainInput {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px 0 0;
+  height: 50px;
+  width: 300px;
+}
+#mainInputButton {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+}
+
+#mainSmallInput {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  height: 50px;
+  width: 220px;
+}
+#mainSmallInputButton {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+}
+
+.featureContainer {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: max-content;
+  border-radius: 10px;
+  background-color: #f1f1ea;
+  padding: 20px;
+  display: inline-block;
+}
+.featureImageContainer {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: max-content;
+  width: 45px;
+}
+.featureImageContainer img {
+  width: 35px;
+}
+.featureTextContainer {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 45px);
+  height: max-content;
+}
+.featureContainer:first-child {
+  margin-right: 20px;
+}
+
+#featuresMainContainer {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: max-content;
+}
+
+#footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0e0e0e;
+  padding: 50px 0;
+}
+
+#footerLinksContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: max-content;
+}
+
+#footerLinksContainer a {
+  text-decoration: underline;
+  color: white;
+  margin: 0 30px 0 0;
+}
+#footerLinksContainer p {
+  position: relative;
+  display: inline-block;
+  color: white;
+  margin: 0;
+}
+
+#smallLineDivisor {
+  position: relative;
+  top: 0;
+  left: 50%;
+  height: 3px;
+  width: 80px;
+  transform: translateX(-50%);
+  margin: 0 0 50px 0;
+  background-color: #b6b6b6;
+}
+
+#chartsContainer {
+  position: relative;
+  left: 50%;
+  width: max-content;
+  max-width: 100%;
+  height: max-content;
+  transform: translateX(-50%);
+  margin: 0 0 50px 0;
+}
+
+.chartBox {
+  border-width: 2px;
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0;
+  padding: 20px;
+}
+.chartBox:first-child {
+  margin: 0 20px 0 0;
+}
+.chartTitle {
+  width: 100%;
+  left: 0;
+  display: block;
+  text-align: center;
+}
+
+.postPicturesContainer {
+  width: calc((100% / 6) - (100px / 6));
+  height: calc((100vw / 6 * 0.8) - (100px / 6));
+  max-height: 150px;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  margin: 0 20px 20px 0;
+}
+.postPicturesContainer:nth-child(7) {
+  margin: 0 !important;
+}
+.postPicturesContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 980px) {
+  #inputContainer {
+    left: 0;
+    transform: unset;
+    width: 100%;
+  }
+  #mainInput {
+    display: block;
+    margin: 0 0 20px 0;
+    left: 0;
+    width: 100%;
+  }
+  #mainInputButton {
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .featureContainer {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    margin: 0 0 20px 0;
+  }
+  .contentContainer {
+    width: 100%;
+    padding: 0 20px;
+    left: 0;
+    transform: unset;
+    margin: 0 0 100px 0;
+  }
+  #featuresMainContainer {
+    left: 0;
+    transform: unset;
+    width: 100%;
+  }
+  .topBarInner {
+    width: calc(100% - 40px);
+    max-width: unset;
+    left: 20px;
+    transform: unset;
+  }
+  #footerLinksContainer {
+    left: 0;
+    transform: unset;
+    width: 100%;
+  }
+  #footerLinksContainer a {
+    display: block;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  #footerLinksContainer p {
+    display: block;
+    text-align: center;
+  }
+  .footerInputContainer {
+    left: 0;
+    transform: unset;
+    width: 100%;
+    margin: 0 0 50px 0;
+  }
+  .postPicturesContainer {
+    width: calc((100% / 3) - (80px / 3));
+    height: calc(((100vw - 40px) / 3) - (80px / 3));
+    max-height: 184px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 0 20px 20px 0;
+  }
+  .postPicturesContainer:nth-child(6) {
+    margin: 0 !important;
+  }
+  .chartBox {
+    border-width: 2px;
+    border-style: solid;
+    height: max-content;
+    width: calc(50% - 10px);
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0;
+    padding: 20px;
+  }
+  .chartBox:first-child {
+    margin: 0 20px 0 0;
+  }
+  #chartsContainer {
+    left: 0;
+    width: 100%;
+    max-width: unset;
+    height: max-content;
+    transform: unset;
+    margin: 0 0 50px 0;
+  }
+  .halfDiv {
+    display: block;
+    width: 100%;
+  }
+  .halfDiv:first-child {
+    margin: unset;
+  }
+  .halfDivImgContainer {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100vw - 40px);
+    background-color: blue;
+    border-radius: 10px;
+    margin: 0 0 40px 0;
+  }
+  #mainPromoVideoDiv {
+    height: calc(120vw - 40px);
+  }
+}
+
+.errorMessage {
+  color: red;
+  margin: 0 0 20px 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+}
